@@ -1,0 +1,36 @@
+/* src/styles/FruitDetails.css */
+
+.fruit-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fruit-details-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,59 @@
+/* src/styles/Translator.css */
+
+.translator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .input-box {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .translate-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .translate-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .result h3 {
+    margin-bottom: 10px;
+  }
+  

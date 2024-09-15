@@ -1,0 +1,27 @@
+/* src/styles/FruitCard.css */
+
+.fruit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .fruit-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .fruit-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
